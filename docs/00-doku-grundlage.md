@@ -59,7 +59,7 @@ graph LR
     Internet <--> FritzBox
     FritzBox <--> Pi
     FritzBox <--> Mac
-    Mac -.WireGuard-Tunnel<br/>10.10.10.0/24.-> Pi
+    Mac -.->|WireGuard-Tunnel, 10.10.10.0/24| Pi
 ```
 
 **Logisch (Dienste & Ports auf dem Pi):**
