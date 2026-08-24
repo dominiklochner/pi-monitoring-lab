@@ -83,7 +83,9 @@ graph TD
 |---|---|---|---|
 | Raspberry Pi (`RaspberryPi`) | 192.168.178.47 (eth0), 10.10.10.1 (wg0) | DNS-Server, VPN-Gateway, SSH-Host, Docker-Host (bereit) | Pi Network Lab, Pi Docker Stack, Pi Monitoring Lab |
 | MacBook Pro (M1) | dynamisch (DHCP) | Steuerzentrale, SSH-Client, WireGuard-Peer | alle Projekte |
-| FritzBox (Router) | vermutlich 192.168.178.1 (Standard-Gateway, zu verifizieren) | Router, DHCP-Server, Port-Forwarding UDP 51820 → Pi | Pi Network Lab |
+| FritzBox (Router) | 192.168.178.1 (Standard-Gateway, verifiziert) | Router, DHCP-Server, Port-Forwarding UDP 51820 → Pi | Pi Network Lab |
+
+## Phase 0 — Status: abgeschlossen ✅
 
 ## Nächster Schritt
 
